@@ -1,0 +1,22 @@
+{
+    "mail" : {
+        "subject": "Subject of the mail",
+        "sender": "displayed.sender@mail.com"
+    },
+    "participants": [
+        {
+            "name" : "person1",
+            "email" : "person1@mail.com"
+        },
+        {
+            "name" : "person2",
+            "email" : "person2@mail.com"
+        }
+    ],
+    "template" : {
+        "path":"./template/template.html",
+        "title":"Title goes here",
+        "image":"https://source.unsplash.com/random/",
+        "text":"Text before the name goes here:"
+    }
+}
